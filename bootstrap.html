@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+    
+
+    header{
+        height: 140px;
+        display: flex;
+        justify-content: cente;
+        align-items: center;
+        background-color: rgb(51, 111, 250);
+        
+        
+    }
+
+    .menu{
+        display: flex;
+        margin-left: 3%;
+    }
+    
+    ul{
+        display:flex;
+        position: absolute;
+        left: 80%;
+
+
+
+    }
+    ul li{
+        color: rgb(255, 255, 255);
+        display: block;
+        padding: 15px;
+        font-size: 20px;
+
+    }
+
+    
+
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .titulo{
+        margin-top: 4%;
+        color: rgb(146, 146, 146);
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .inforcurso{
+        margin-top: 8%;
+        display: flex;
+        margin-left: 5%;
+        justify-content: center;
+    }
+
+    p{
+        display:block;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 40%;
+        margin-left: 3%;
+        
+    }
+
+    #inscreva{
+        font-family: Arial, Helvetica, sans-serif;
+        color:rgb(245, 241, 241);
+        position: absolute;
+        top:70%;
+        left: 54%;
+        background-color: rgb(107, 20, 207);
+        padding: 15px;
+        border-radius: 100px;
+        width: 180px;
+        text-align: center;
+    }
+    #inscreva2{
+        font-family: Arial, Helvetica, sans-serif;
+        color:rgb(255, 248, 248);
+        background-color:rgb(107, 20, 207);
+        padding: 15px;
+        border-radius: 100px;
+        width: 180px;
+        text-align: center;
+        margin-left: 17%;
+    }
+
+    #inscreva:hover{
+        transition:0.2s;
+        background-color: rgb(177, 177, 177);
+        color:aliceblue
+        
+    }
+    #inscreva2:hover{
+        transition:0.2s;
+        background-color: rgb(177, 177, 177);
+        color:aliceblue
+    }
+    .video{
+        padding: 20px;
+        margin-top: 10%;
+        margin-bottom: 9%;
+        background-color: rgb(51, 111, 250);
+        height:400px;
+        width: 100%;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    .pe{
+        margin-top: 20%;
+        display: block;
+        height: 200px;
+        background-color:rgb(51, 111, 250) ;
+    }
+    #textoderodape{
+        padding: 4%;
+        color: white;
+        font-family: arial;
+        font-size: 20px;
+        text-transform: uppercase;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 28%;
+        
+    }
+
+</style>
+<body>
+    <header>
+        <div class="menu">
+            <a href="./index.html"><img src="curso-online.png" alt="" width="50px"></a>
+            <ul>
+               
+               <a href="./index.html" style="text-decoration: none;"><li id="sobre">Home</li></a>
+               <li id="sobre">Abaut</li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="titulo">
+            <h1>Bootstrap</h1>
+        </div>
+        <div class="inforcurso">
+            <img src="bootstrap.png" alt="" width="230px"> 
+            <p>Aprenda a criar sites interativos, aplicativos para celulares e serviços de high load usando a linguagem de programação mais popular do mundo. Vá do zero ao pro utilizando JavaScript e seu ecossistema para trilhar uma carreira de sucesso como desenvolvedor.</p>
+            <h3 id="inscreva"> Inscreva-se</h3>
+        </div>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mVgrenJX5dI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3 id="inscreva2"> Inscreva-se</h3>
+        </div>
+    </main>
+    <footer class="radape">
+        <div class="pe">
+            <p id="textoderodape">
+                Curso oline <br>todos os direitos rezervados. <br>
+                2022
+            </p>
+
+        </div>
+    </footer>
+</body>
+</html>
